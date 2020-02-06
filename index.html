@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- import styles css -->
+    <link rel="stylesheet" href="/css/styles.css" type="text/css">
+    <!-- Import queries css -->
+    <link rel="stylesheet" href="/css/queries.css" type="text/css">
+    <!-- Import bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Sticky Navbar on top</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="home">
+        <div class="container">
+            <h1>Welcome to my blog</h1>
+            <h3>I teach, you apply</h3>
+            <a href="#blog" class="btn btn-md btn-info">Read more</a>
+        </div>
+    </header>
+    
+    <!-- Section1 -->
+    <section id="blog">
+        <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-info">
+            <div class="container">
+                <a href="#!" class="navbar-brand">Bloggers Choice</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#stickyNavTop">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="stickyNavTop">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#!" class="nav-link">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#!" class="nav-link">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#!" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#!" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <h1 class="text-center mt-5 mb-5">Top Blogs of the month</h1>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h4 class="card-title">Blog1: Top 20 lorem ipsum</h4>
+                    <h6 class="card-subtitle text-muted">lorem ipsum dolor</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa cum accusantium assumenda nihil exercitationem ipsa dolore consequatur, sit aut quaerat. Doloremque labore cupiditate exercitationem! Consectetur, error? Odit animi quidem maxime.</p>
+                    <a href="#!" class="btn btn-outline-info">Read more</a>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <img class="img-fluid" src="/img/squareImg.jpg" alt="card-content">
+                <div class="card-body">
+                    <h4 class="card-title">Blog2: Lorem ipsum dolor sit amet.</h4>
+                    <h6 class="card-subtitle text-muted">lorem ipsum dolor</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa cum accusantium assumenda nihil exercitationem ipsa dolore consequatur, sit aut quaerat. Doloremque labore cupiditate exercitationem! Consectetur, error? Odit animi quidem maxime.</p>
+                    <a href="#!" class="btn btn-info">Read more</a>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h4 class="card-title">Blog3: Lorem ipsum dolor sit amet.</h4>
+                    <h6 class="card-subtitle text-muted">lorem ipsum dolor</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa cum accusantium assumenda nihil exercitationem ipsa dolore consequatur, sit aut quaerat. Doloremque labore cupiditate exercitationem! Consectetur, error? Odit animi quidem maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, ipsa optio! Illum, repellendus tempore sequi asperiores perferendis nulla possimus iure. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis sunt pariatur deserunt sint sapiente reiciendis ab, doloribus laudantium totam!</p>
+                    <a href="#!" class="btn btn-outline-info">Read more</a>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h4 class="card-title">Blog4: Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                    <h6 class="card-subtitle text-muted">lorem ipsum dolor</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa cum accusantium assumenda nihil exercitationem ipsa dolore consequatur, sit aut quaerat. Doloremque labore cupiditate exercitationem! Consectetur, error? Odit animi quidem maxime.</p>
+                    <a href="#!" class="btn btn-outline-info">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- Import bootstrap cdn and jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

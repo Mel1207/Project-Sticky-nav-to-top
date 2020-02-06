@@ -1,0 +1,43 @@
+/* Import Lato font */
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+/* Import Poppins font */
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    background: url(/img/minimalBG.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header h1 {
+    padding-top: 300px;
+    font-size: 4.5rem;
+}
+header h3 {
+    padding: 5px 0;
+    font-size: 2.5rem;
+}
+header .btn {
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+/* Section setup */
+section {
+    height: 120vh;
+    width: 100%;
+}
